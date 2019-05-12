@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('./assets/Desktop.svg');
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  text-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25), 0px -25px 50px rgba(0, 0, 0, 0.25);
+}
+#happy {
+  position: absolute;
+  /* width: 53vw;
+  height: 16vw; */
+  left: 12vw;
+  top: 2vw;
+}
+#mother {
+  position: absolute;
+  /* width: 53vw;
+  height: 16vw; */
+  left: 45vw;
+  top: 20vw;
+}
+#day {
+  position: absolute;
+  /* width: 53vw;
+  height: 16vw; */
+  left: 24vw;
+  top: 35vw;
+}
+
+.bubble {
+  position: absolute;
+}
+#Astor {
+  top: 5.2778vw;
+  left: 45.236vw;
+  width: 10.625vw;
+  animation: wobble3 7s infinite ease-in-out;
+
+}
+#Avidor {
+  top: -0vw;
+  left: 18.805vw;
+  width: 12vw;
+  animation: wobble2 6s infinite ease-in-out;
+
+}
+#Marcus {
+  top: 2.569vw;
+  left: 81.041vw;
+  width: 14.791vw;
+  animation: wobble1 12s infinite ease-in-out;
+}
+#Verity {
+  top: 19.027vw;
+  left: 9.388vw;
+  width: 10vw;
+  animation: wobble3 9s infinite ease-in-out;
+
+}
+#Zahra {
+  top: 39.6528vw;
+  left: 59.652vw;
+  width: 17.91vw;
+  animation: wobble1 9s infinite ease-in-out;
+
+}
+
+@keyframes wobble1 {
+  25% {
+  transform: translate3d(-1.5vw, 1.5vw, 0);
+  }
+  50% {
+  transform: translate3d(2.4vw, 0.6vw, 0);
+  }
+  75% {
+    transform: translate3d(-0.9vw, -2.1vw, 0)
+  }
+}
+@keyframes wobble2 {
+  25% {
+  transform: translate3d(-0.4vw, 0.1vw, 0);
+  }
+  50% {
+  transform: translate3d(0.2vw, -0.7vw, 0);
+  }
+  75% {
+    transform: translate3d(0.2vw, 0.6vw, 0)
+  }
+}
+@keyframes wobble3 {
+  25% {
+  transform: translate3d(0.3vw, 0vw, 0);
+  }
+  50% {
+  transform: translate3d(-0.8vw, 0.3vw, 0);
+  }
+  75% {
+    transform: translate3d(0.5vw, -0.3vw, 0)
+  }
+}
